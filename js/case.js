@@ -8,6 +8,7 @@ document.getElementById("case-btn-plus").addEventListener("click", function () {
 
   setTotalAmounts();
 });
+
 document
   .getElementById("case-btn-minus")
   .addEventListener("click", function () {
