@@ -5,6 +5,8 @@ document.getElementById("case-btn-plus").addEventListener("click", function () {
   const price = 59;
 
   updateCaseTotalNumber(newCaseNumber, priceID, price);
+
+  setTotalAmounts();
 });
 document
   .getElementById("case-btn-minus")
@@ -15,4 +17,6 @@ document
     const price = 59;
 
     updateCaseTotalNumber(newCaseNumber, priceID, price);
+
+    setTotalAmounts();
   });
